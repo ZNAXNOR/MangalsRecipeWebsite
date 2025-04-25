@@ -2,15 +2,44 @@
 
 @import "tailwindcss";
 
+/*Manually Added Start*/
+/*Links remain blue due to BootStrap. Over write*/
 a {
     color: inherit;
     text-decoration: none;
 }
 
+/*Add Font*/
 @theme {
     --font-devanagari: "Noto Sans Devanagari", "sans-serif";
 }
 
+/*Ignore Tailwind*/
 .no-tailwind {
     all: unset;
 }
+
+/*Handle Blazor Error*/
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+#blazor-error-ui .dismiss:hover {
+    color: var(--color-red-500);
+}
+/*Manually Added End*/
