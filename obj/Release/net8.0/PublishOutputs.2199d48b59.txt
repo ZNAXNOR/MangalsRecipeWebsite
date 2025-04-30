@@ -1,0 +1,5 @@
+C:\Users\omkar\OneDrive\Desktop\Omkar\VisualStudio\MangalsRecipeWebsite\bin\Release\net8.0\publish\libman.json
+C:\Users\omkar\OneDrive\Desktop\Omkar\VisualStudio\MangalsRecipeWebsite\bin\Release\net8.0\publish\package-lock.json
+C:\Users\omkar\OneDrive\Desktop\Omkar\VisualStudio\MangalsRecipeWebsite\bin\Release\net8.0\publish\tailwind.extension.json
+C:\Users\omkar\OneDrive\Desktop\Omkar\VisualStudio\MangalsRecipeWebsite\bin\Release\net8.0\publish\emcc-props.json
+C:\Users\omkar\OneDrive\Desktop\Omkar\VisualStudio\MangalsRecipeWebsite\bin\Release\net8.0\publish\web.config

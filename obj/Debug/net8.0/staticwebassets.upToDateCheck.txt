@@ -1,0 +1,12 @@
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\icon-192.png
+wwwroot\index.html
+wwwroot\lib\bootstrap-icons\font\bootstrap-icons.css
+wwwroot\lib\bootstrap-icons\font\bootstrap-icons.json
+wwwroot\lib\bootstrap-icons\font\bootstrap-icons.min.css
+wwwroot\lib\bootstrap-icons\font\fonts\bootstrap-icons.woff
+wwwroot\lib\bootstrap-icons\font\fonts\bootstrap-icons.woff2
+wwwroot\sample-data\weather.json
