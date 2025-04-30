@@ -5,5 +5,8 @@
   },
   "scripts": {
     "build:css": "tailwindcss -i ./tailwind.css -o ./wwwroot/css/app.css"
+  },
+  "devDependencies": {
+    "eslint": "^9.25.1"
   }
 }
