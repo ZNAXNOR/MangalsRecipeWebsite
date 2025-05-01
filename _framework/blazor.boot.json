@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MangalsRecipeWasm",
   "resources": {
-    "hash": "sha256-AIEpidhPudHGIK+irNGsBAm8Q7ewGiwshhQDRAhzMV4=",
+    "hash": "sha256-kFME3EmhUnqeQ+yGcMWlIFXCkgecNDRXrenb2zIBOvc=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -22,7 +22,7 @@
       "Google.Apis.Core.wasm": "sha256-wTTA0h/Oopw/tXEanVA+toip7avnMhKTFifVGcTsWn8=",
       "Google.Apis.wasm": "sha256-+OTEkbiKc5pc1r0X52201NwyYG6yoAYBMN3ftpixRhM=",
       "Google.Apis.YouTube.v3.wasm": "sha256-lHN/8kFULIp16PekdX0VMBFPLw3sfVfSfIpxXnyjk9g=",
-      "MangalsRecipeWasm.wasm": "sha256-pswhbeOC8limEOMXwb8TKHTZdoT6Nahepo8vAuF+taE=",
+      "MangalsRecipeWasm.wasm": "sha256-cg7Qn+fK+g83t0DWc1XD/cAMJfhdnIScqMBMIryoW5c=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-LpM37pTFtM2DxPt/ZwUyUoPfCtC1tX6irubMl/wz6bM=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-aSkGMtXQ+nX7g4Qyy8R/1Sw9VWGX6gI9MjUponKtiz4=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-HD7XNEWw4gnNsiswKUNZLsspI8rId8HWBeAMK3auDGw=",
