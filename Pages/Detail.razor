@@ -2,57 +2,63 @@
 
 @using Microsoft.AspNetCore.Components
 
-<!-- <YouTubePlayer VideoId="5ml4WMlFN3c?si=DRCaXHWLtbOjvjFs" /> -->
-
 <div class="overflow-hidden bg-white py-18 sm:py-24">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <YouTubePlayer VideoId="5ml4WMlFN3c?si=DRCaXHWLtbOjvjFs" />
-            <div class="lg:pt-4 lg:pl-8">
-                <div class="lg:max-w-lg">
-                    <!-- Title -->
-                    <h3 class="font-devanagari font-semibold text-pretty text-gray-900">हॉटेल सारख पालक पनीर</h3>
-                    <h4 class="mt-2 font-medium tracking-tight text-pretty text-gray-900">Palak paneer recipe in marathi by Mangal</h4>
-                    
-                    <!-- Responsive Buttons Grid -->
-                    <div class="mx-auto my-4 grid max-w-3xl gap-4 md:grid-cols-2">
-                        <!-- Visit Channel -->
-                        <a href="https://www.youtube.com/@@MangalMarathiRecipe"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           aria-label="Visit Mangal Marathi Recipe YouTube Channel">
-                            <div class="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-4 text-center ring-1 ring-gray-300 transition-all duration-200 ease-in-out hover:bg-red-200 hover:ring-red-500 hover:ring-2 hover:shadow-md">
-                                <img class="mb-2 size-14 rounded-full ring-2 ring-white transition-all duration-200 ease-in-out"
-                                     src="https://yt3.ggpht.com/ytc/AIdro_lCIMMWPR_bdu6X5sf3szzRwTKCmWbQ5kKPHv1HxcB8Aw=s48-c-k-c0x00ffffff-no-rj"
-                                     alt="Mangal Marathi Recipe Channel Logo">
-                                <span class="text-base font-semibold text-gray-800">Mangal Marathi Recipe</span>
-                                <span class="mt-1 flex items-center justify-center gap-1 text-sm text-gray-500">
-                                    <span class="bi bi-play-btn-fill text-red-600"></span>
-                                    Visit the YouTube channel
-                                    <span class="bi bi-box-arrow-up-right text-xs text-gray-400"></span>
-                                </span>
-                            </div>
-                        </a>
+        <div class="mx-auto max-w-2xl">
 
-                        <!-- View Video on YouTube -->
-                        <a href="https://youtu.be/5ml4WMlFN3c"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           aria-label="Watch featured YouTube video">
-                            <div class="flex items-center gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-gray-300 transition-all duration-200 ease-in-out hover:bg-red-200 hover:ring-red-500 hover:ring-2 hover:shadow-md">
-                                <span class="bi bi-play-btn-fill text-2xl text-red-600"></span>
-                                <div class="flex flex-col">
-                                    <span class="text-base font-medium text-gray-800">
-                                        View Video on YouTube
-                                        <span class="bi bi-box-arrow-up-right text-md text-gray-400"></span>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+            <!-- Title -->
+            <h1 class="font-devanagari text-2xl font-bold text-gray-900">
+                हॉटेल सारख पालक पनीर
+            </h1>
+            <h4 class="mt-2 font-medium tracking-tight text-pretty text-gray-900">
+                Palak paneer recipe in marathi by Mangal
+            </h4>
 
-                </div>
+            <!-- Tags -->
+            <div class="mt-4 flex flex-wrap gap-2">
+                <a href="#"
+                   class="inline-flex items-center gap-2 rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-800 transition-all hover:bg-green-200 hover:text-green-700 hover:font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="h-4 w-4 fill-green-700">
+                        <g transform="translate(1.4 254.6) rotate(-90) scale(2.81)">
+                            <path d="M 90 90 H 0 V 0 h 90 V 90 z M 4 86 h 82 V 4 H 4 V 86 z" />
+                            <circle cx="44.997" cy="44.997" r="27.397" />
+                        </g>
+                    </svg>
+                    Veg
+                </a>
+                <a href="#"
+                   class="inline-flex items-center gap-2 rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-800 transition-all hover:bg-blue-200 hover:text-blue-900 hover:font-semibold">
+                    Main Course
+                </a>
+                <a href="#"
+                   class="inline-flex items-center gap-2 rounded-full bg-gray-200 px-3 py-1 text-sm text-gray-800 transition-all hover:bg-blue-200 hover:text-blue-900 hover:font-semibold">
+                    Recipe
+                </a>
             </div>
+
+            <!-- Video Placeholder -->
+            <div class="mt-6 flex aspect-video w-full items-center justify-center">
+                @* <span class="text-gray-600">Video content will appear here</span> *@
+                <YouTubePlayer VideoId="5ml4WMlFN3c?si=DRCaXHWLtbOjvjFs" />
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="mt-6 flex flex-wrap gap-4">
+                <a href="https://youtube.com/channel"
+                   target="_blank"
+                   class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-4 py-2 text-gray-900 transition-colors hover:bg-gray-300">
+                    <i class="bi bi-youtube text-lg"></i>
+                    Visit Channel
+                </a>
+
+                <a href="https://youtube.com/watch"
+                   target="_blank"
+                   class="inline-flex items-center gap-2 rounded-lg bg-red-600 px-4 py-2 text-white transition-colors hover:bg-red-700">
+                    <i class="bi bi-play-fill text-lg"></i>
+                    Watch on YouTube
+                </a>
+            </div>
+
         </div>
     </div>
 </div>
